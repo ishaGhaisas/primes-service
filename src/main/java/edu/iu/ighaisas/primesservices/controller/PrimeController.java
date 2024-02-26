@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import edu.iu.ighaisas.primesservices.service.IPrimeService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/primes")
 public class PrimeController {
 
